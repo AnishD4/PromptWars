@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://coegrcg1ks40u"]
 
+[ext_resource type="PackedScene" uid="uid://bkfot54vajq0i" path="res://Scenes/UI/UI.tscn" id="1_jjgbg"]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7dm0k"]
 
 [node name="Main" type="Node2D" unique_id=1917056333]
@@ -8,3 +10,5 @@
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D" unique_id=740268228]
 shape = SubResource("RectangleShape2D_7dm0k")
+
+[node name="UI" parent="." unique_id=901834875 instance=ExtResource("1_jjgbg")]

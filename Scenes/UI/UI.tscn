@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bkfot54vajq0i"]
+
+[ext_resource type="Script" uid="uid://c0h0qayoiea6c" path="res://Scenes/UI/ui.gd" id="1_s86y4"]
+
+[node name="UI" type="Control" unique_id=901834875]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_s86y4")
+
+[node name="HealthBarsContainer" type="VBoxContainer" parent="." unique_id=55849825]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TimerLabel" type="Label" parent="." unique_id=1864137658]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="WeaponPromptContainer" type="HBoxContainer" parent="." unique_id=85809682]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PromptInput" type="LineEdit" parent="WeaponPromptContainer" unique_id=795947279]
+layout_mode = 2
+
+[node name="ForgeButton" type="Button" parent="WeaponPromptContainer" unique_id=767615674]
+layout_mode = 2
+text = "forge"
